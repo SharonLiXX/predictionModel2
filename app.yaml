@@ -1,10 +1,1 @@
-runtime: python38
-api_version: 1
-threadsafe: true
-
-handlers:
-- url: /
-  script: app.app
-
-- url: /.*
-  script: not_found.app
+runtime: python37
